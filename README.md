@@ -1,10 +1,3 @@
-<div align="center">
-  <img src="imgs/big_text.png" alt="Genesis" width="85%">
-  
-</div>
-
----
-
 <!-- <div align="center">
   <img src="imgs/teaser.png" width="100%">
 </div> -->
