@@ -5,9 +5,9 @@
 
 ---
 
-<div align="center">
+<!-- <div align="center">
   <img src="imgs/teaser.png" width="100%">
-</div>
+</div> -->
 
 
 # What is Genesis?
