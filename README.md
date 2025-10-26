@@ -25,7 +25,6 @@ Genesis is built and will continuously evolve with the following ***long-term mi
 2. **Unifying a wide spectrum of state-of-the-art physics solvers** into a single framework, allowing re-creating the whole physical world in a virtual realm with the highest possible physical, visual and sensory fidelity, using the most advanced simulation techniques.
 3. **Minimizing human effort** in collecting and generating data for robotics and other domains, letting the data flywheel spin on its own.
 
-Project Page: https://genesis-embodied-ai.github.io/
 
 ## Key Features
 - **Speed**: Genesis delivers an unprecedented simulation speed -- over 43 million FPS when simulating a Frana robotic arm with a single RTX 4090 (430,000 faster than real-time).
