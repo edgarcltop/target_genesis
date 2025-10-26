@@ -55,19 +55,3 @@ The goal of the Genesis project is to build a fully transparent, user-friendly e
 
 We sincerely welcome *any forms of contributions* from the community to make the world a better place for robots. From **pull requests** for new features, **bug reports**, to even tiny **suggestions** that will make Genesis API more intuitive, all are wholeheartedly appreciated!
 
-## Support
-* Please use Github [Issues](https://github.com/Genesis-Embodied-AI/Genesis/issues) for bug reports and feature requests.
-* Please use GitHub [Discussions](https://github.com/Genesis-Embodied-AI/Genesis/discussions) for discussing ideas, and asking questions.
-
-## License and Acknowledgment
-The Genesis source code is licensed under Apache 2.0.
-The development of Genesis won't be possible without these amazing open-source projects:
-- [Taichi](https://github.com/taichi-dev/taichi): for providing a high-performance cross-platform compute backend. Kudos to all the members providing technical support from taichi!
-- [FluidLab](https://github.com/zhouxian/FluidLab) for providing a reference MPM solver implementation
-- [SPH_Taichi](https://github.com/erizmr/SPH_Taichi) for providing a reference SPH solver implementation
-- [MuJoCo](https://github.com/google-deepmind/mujoco) and [Brax](https://github.com/google/brax) for providing reference for rigid body dynamics
-- [libccd](https://github.com/danfis/libccd) for providing reference for collision detection
-
-}
-```
-
