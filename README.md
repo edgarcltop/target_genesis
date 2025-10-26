@@ -22,7 +22,6 @@ Powered by a universal physics engine re-designed and re-built from the ground u
 Currently, we are open-sourcing the **underlying physics engine and the simulation platform**. Our generative framework is a modular system that incorporates many different generative modules, each handling a certain range of data modalities, routed by a high level agent. Some of the modules integrated existing papers and some are still under submission. Access to our generative feature will be gradually rolled out in the near future. If you are interested, feel free to explore more the [paper list](#papers-behind-genesis) below.
 
 Genesis is built and will continuously evolve with the following ***long-term missions***:
-1. **Lowering the barrier** to using physics simulations and making robotics research accessible to everyone. (See our [commitment](https://genesis-world.readthedocs.io/en/latest/user_guide/overview/mission.html))
 2. **Unifying a wide spectrum of state-of-the-art physics solvers** into a single framework, allowing re-creating the whole physical world in a virtual realm with the highest possible physical, visual and sensory fidelity, using the most advanced simulation techniques.
 3. **Minimizing human effort** in collecting and generating data for robotics and other domains, letting the data flywheel spin on its own.
 
@@ -36,9 +35,9 @@ Project Page: https://genesis-embodied-ai.github.io/
 - **Support for a wide range of robots**: Robot arm, legged robot, drone, _soft robot_, etc., and extensive support for loading different file types: `MJCF (.xml)`, `URDF`, `.obj`, `.glb`, `.ply`, `.stl`, etc.
 - **Photorealistic and high-performance ray-tracer**: Genesis supports native ray-tracing based rendering.
 - **Differentiability**: Genesis is designed to be fully compatible with differentiable simulation. Currently, our MPM solver and Tool Solver are differentiable, and differentiability for other solvers will be added soon (starting with rigid-body simulation).
-- **Physics-based Tactile Sensor**: Genesis involves a physics-based and differentiable [tactile sensor simulation module](https://github.com/Genesis-Embodied-AI/DiffTactile). This will be integrated to the public version soon (expected in verion 0.2.0).
-- **User-friendliness**: Genesis is designed in a way to make using simulation as simple as possible. From installation to API design, if there's anything you found counter-intuitive or difficult to use, please [let us know](https://github.com/Genesis-Embodied-AI/Genesis/issues).
-
+- **Physics-based Tactile Sensor**: Genesis involves a physics-based and differentiable [tactile sensor simulation module. This will be integrated to the public version soon (expected in verion 0.2.0).
+- **User-friendliness**: Genesis is designed in a way to make using simulation as simple as possible. From installation to API design, if there's anything you found counter-intuitive or difficult to use, please [let us know]
+- 
 ## Getting Started
 ### Quick Installation
 Genesis is available via PyPI:
@@ -68,16 +67,7 @@ The development of Genesis won't be possible without these amazing open-source p
 - [SPH_Taichi](https://github.com/erizmr/SPH_Taichi) for providing a reference SPH solver implementation
 - [MuJoCo](https://github.com/google-deepmind/mujoco) and [Brax](https://github.com/google/brax) for providing reference for rigid body dynamics
 - [libccd](https://github.com/danfis/libccd) for providing reference for collision detection
-- [PyRender](https://github.com/mmatl/pyrender) for rasterization-based renderer
-- [LuisaCompute](https://github.com/LuisaGroup/LuisaCompute) and [LuisaRender](https://github.com/LuisaGroup/LuisaRender) for its ray-tracing DSL
-- [trimesh](https://github.com/mikedh/trimesh), [PyMeshLab](https://github.com/cnr-isti-vclab/PyMeshLab) and [CoACD](https://github.com/SarahWeiii/CoACD) for geometry processing
 
-@software{Genesis,
-  author = {Genesis Authors},
-  title = {Genesis: A Universal and Generative Physics Engine for Robotics and Beyond},
-  month = {December},
-  year = {2024},
-  url = {https://github.com/Genesis-Embodied-AI/Genesis}
 }
 ```
 
