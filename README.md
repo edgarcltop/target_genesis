@@ -1,8 +1,3 @@
-<!-- <div align="center">
-  <img src="imgs/teaser.png" width="100%">
-</div> -->
-
-
 # What is Genesis?
 Genesis is a physics platform designed for general purpose *Robotics/Embodied AI/Physical AI* applications. It is simultaneously multiple things:
 1. A **universal physics engine** re-built from the ground up, capable of simulating a wide range of materials and physical phenomena.
@@ -24,11 +19,6 @@ Genesis is available via PyPI:
 ```bash
 pip install genesis-world
 ```
-You also need to install **PyTorch** following the [official instructions](https://pytorch.org/get-started/locally/).
-
-### Documentation
-Please refer to our [documentation site](https://genesis-world.readthedocs.io/en/latest/user_guide/index.html) to for detailed installation steps, tutorials and API references.
-
 ## Contributing to Genesis
 
 The goal of the Genesis project is to build a fully transparent, user-friendly ecosystem where contributors from both robotics and computer graphics can **come together to collaboratively create a high-efficiency, realistic (both physically and visually) virtual world for robotics research and beyond**.
